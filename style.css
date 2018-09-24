@@ -19,6 +19,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
+  color: rgb(10,10,10);
 }
 a {
   color: rgb(200,200,200);
@@ -31,12 +32,22 @@ a:hover {
 table img {
   width: 300px;
 }
+.small {
+  padding-left: 0;
+}
+.small li {
+  display: inline-block;
+}
+.small li i {
+  font-size: 18px;
+  padding-right: 35px;
+}
 .desc {
   padding: 0 110px 10px;
 }
 .card-white {
   background-color: white;
-  padding: 30px;
+  padding: 40px;
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
   margin: 20px auto;
@@ -95,7 +106,7 @@ table img {
    color: white;
 }
 #favorites td {
-  padding: 0 20px 20px;
+  padding: 20px;
 }
 
 
