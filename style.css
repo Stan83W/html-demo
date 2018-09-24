@@ -1,23 +1,24 @@
 body {
-  color: rgb(10,10,10);
+  color: rgb(100,100,100);
   background-color: #F6F6F6;
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Spectral', serif;
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 56px;
+  font-size: 35px;
+  margin: 15px 5px 5px;
+  color: rgb(10,10,10);
 }
 h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
 }
 h3 {
   font-weight: 700;
-  text-transform: uppercase;
 }
 a {
   color: rgb(200,200,200);
@@ -27,3 +28,46 @@ a {
 a:hover {
   color: black;
 }
+table img {
+  width: 200px;
+}
+.desc {
+  padding: 10px 110px 20px;
+}
+.card-white {
+  background-color: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  width: 700px;
+  margin: 20px auto;
+}
+.text-center {
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0 4px 7px rgba(0,0,0,0.2);
+}
+.btn-black {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+}
+.btn-black:hover {
+  background-color: rgb(200,200,200);
+  color: white;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 40px;
+}
+.list-inline li i {
+  font-size: 25px;
+}
+
+
