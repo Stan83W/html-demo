@@ -117,3 +117,22 @@ table img {
   font-family: "Roboto", sans-serif;
 }
 
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+  .container-fluid {
+    width: 90%;
+  }
+  td img {
+    width: 250px;
+  }
+  #favorites td {
+    padding: 10px;
+  }
+}
+
+
