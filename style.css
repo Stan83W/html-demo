@@ -25,7 +25,9 @@ a {
   color: rgb(200,200,200);
   text-decoration: none;
 }
-
+p {
+  font-size: 15px;
+}
 a:hover {
   color: black;
 }
@@ -39,7 +41,7 @@ table img {
   display: inline-block;
 }
 .small li i {
-  font-size: 18px;
+  font-size: 25px;
   padding-right: 35px;
 }
 .desc {
@@ -108,7 +110,7 @@ table img {
    color: white;
 }
 #favorites td {
-  padding: 20px;
+  padding: 40px;
 }
 .small a {
   letter-spacing: 3px;
